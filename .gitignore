@@ -3,3 +3,13 @@
 *.tmp
 __pycache__/
 .env
+
+.env
+mern-demo/.env
+mern-demo/client/node_modules
+mern-demo/node_modules
+
+.env
+mern-demo/.env
+mern-demo/node_modules
+mern-demo/client/node_modules
