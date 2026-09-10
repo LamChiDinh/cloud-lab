@@ -68,10 +68,13 @@ app.delete('/api/students/:id', async (req, res) => {
 
 // Phục vụ giao diện React build tĩnh
 app.use(express.static(path.join(__dirname, '../client/dist')));
-app.get('*', (req, res) => {
+/*app.get('/(.*)', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
-
+*/
+app.get('/api/hello', (req, res) => {
+    res.json({ message: 'Backend đang hoạt động!' });
+});
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server dang chay tren port ${PORT}`);
 });

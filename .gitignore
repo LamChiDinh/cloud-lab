@@ -13,3 +13,5 @@ mern-demo/node_modules
 mern-demo/.env
 mern-demo/node_modules
 mern-demo/client/node_modules
+
+.vs/
