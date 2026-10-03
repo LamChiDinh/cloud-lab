@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div style={{ padding: '30px', maxWidth: '800px', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
-      <h2>Quan ly Sinh vien (MERN Stack)</h2>
+      <h2>Quan ly Sinh vien (MERN Stack v2.0)</h2>
       
       <form onSubmit={handleSubmit} style={{ marginBottom: '20px', display: 'flex', gap: '10px' }}>
         <input 
